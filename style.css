@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 35vw;
+}
+
+h1 {
+  font-size: 27px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #993399;
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.biscoito {
+  color: rgb(191, 182, 199);
+  background-color: rgba(14, 14, 14, 0.171);
+  color: wheat;
+}
+
+ol {
+  background-color: rgba(14, 14, 14, 0.315);
+  color: wheat;
+}
+
+.biscoito3 {
+  color: rgb(191, 182, 199);
+  background-color: rgba(14, 14, 14, 0.171);
+  color: wheat;
+}/*# sourceMappingURL=style.css.map */
