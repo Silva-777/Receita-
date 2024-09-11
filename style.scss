@@ -26,17 +26,43 @@ main{
 
 .biscoito{
     color: rgb(191, 182, 199);
-    background-color: rgba(14, 14, 14, 0.171);
+    background-color: rgba(14, 14, 14, 0.315);
     color: wheat;
+    padding: 20px;
 }
 
 ol{
     background-color: rgba(14, 14, 14, 0.315);
     color: wheat;
+    padding: 20px;
+}
+
+.sem-numero {
+    list-style-type: none; /* Remove a numeração */
+}
+
+.sem-numero li {
+    counter-increment: none; /* Remove qualquer contagem adicional */
+}
+
+.sem-numero2{
+        list-style-type: none;
+}
+    
+.sem-numero2 li {
+    counter-increment: none;
 }
 
 .biscoito3{
     color: rgb(191, 182, 199);
     background-color: rgba(14, 14, 14, 0.171);
     color: wheat;
+}
+
+main{
+    border: solid;
+    // 1 valor será aplicado para os quatro lados 
+    // 2 valores serão aplicados para 
+    // primeiro valor (top, bottom) segundo para o lado
+    padding: 20px 6px;
 }
